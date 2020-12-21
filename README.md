@@ -29,6 +29,9 @@ The && operator returns the first falsy value, and if none are falsy, it return 
 <br>"" || "Dog"  ==>   // "Dog"
 <br>"Cat" || "Dog" ==> // "Cat"
 
+empty string is falsy
+any number other than 0 is truthy
+
 ## Issues
 
 As of 12/19 npm does not support global installs. 
