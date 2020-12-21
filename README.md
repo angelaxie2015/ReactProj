@@ -24,10 +24,10 @@ The || operator returns the first truthy value, and if none are truthy, it retur
 
 The && operator returns the first falsy value, and if none are falsy, it return the last value (which is a truthy value).
 
-"" && "Dog"    // ""
-<br>"Cat" && "Dog" // "Dog"
-<br>"" || "Dog"    // "Dog"
-<br>"Cat" || "Dog" // "Cat"
+"" && "Dog"   ==>  // ""
+<br>"Cat" && "Dog". ==>  // "Dog"
+<br>"" || "Dog"  ==>   // "Dog"
+<br>"Cat" || "Dog" ==> // "Cat"
 
 ## Issues
 
